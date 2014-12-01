@@ -1,0 +1,9 @@
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\bin\Debug\currencyConverter.CalculationEngine.dll
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\bin\Debug\currencyConverter.CalculationEngine.pdb
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\bin\Debug\currencyConverter.Domain.dll
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\bin\Debug\currencyConverter.Respository.dll
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\bin\Debug\currencyConverter.Domain.pdb
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\bin\Debug\currencyConverter.Respository.pdb
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\obj\Debug\currencyConverter.calculationEngine.csprojResolveAssemblyReference.cache
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\obj\Debug\currencyConverter.CalculationEngine.dll
+C:\Dev\currencyConverter\currencyConverter\currencyConverter.calculationEngine\obj\Debug\currencyConverter.CalculationEngine.pdb

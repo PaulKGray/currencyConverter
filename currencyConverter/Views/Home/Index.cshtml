@@ -1,0 +1,46 @@
+﻿<div class="jumbotron">
+    <h1>Currency Converter</h1>
+</div>
+<div ng-app="ConverterApp" class="row">
+    <div ng-controller="ConverterController">
+
+        <form role="form" class="form-inline" ng-submit="convert()">
+            <div class="form-group">
+                <label for="currencyFrom">Convert From</label>
+                <select name="currencyFrom" class="form-control" ng-model="currencyFrom" required>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="AUD">AUD</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="currencyTo">Convert To</label>
+                <select name="currencyTo" class="form-control" ng-model="currencyTo" required>
+                    <option value="GBP">GBP</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                    <option value="AUD">AUD</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input ng-model="amount" type="number" min="0" step="0.01" class="form-control"  required />
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+
+        </form>
+
+        <div class="jumbotron" ng-show="convertionResult.error">There was an error with the request check the country codes</div>
+
+        <div class="jumbotron" ng-show="convertionResult.amountConverted">
+
+            Converts to <span ng-bind="convertionResult.amountConverted"></span> <span ng-bind="convertionResult.currencyTo"></span> at a rate of <span ng-bind="convertionResult.rate"></span>
+
+        </div>
+         
+
+    </div>
+
+</div>
